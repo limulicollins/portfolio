@@ -36,3 +36,7 @@
 
 - Boxicons
 - Formsubmit
+
+# Hosting
+- Hosted on netlify
+- https://collinslimuliportfolio.netlify.app/
