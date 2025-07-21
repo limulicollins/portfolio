@@ -183,19 +183,32 @@
         })
         .then(() => {
           form.reset();
+
+          // Success Toast
           Swal.fire({
+            toast: true,
+            position: 'top',
             icon: 'success',
-            title: 'Message Sent!',
-            text: 'Thanks for reaching out — I’ll get back to you soon.',
-            confirmButtonColor: '#3085d6',
-            confirmButtonText: 'Okay'
+            title: 'Message sent successfully!',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer)
+              toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
           });
         })
         .catch((error) => {
+          // Error Toast
           Swal.fire({
+            toast: true,
+            position: 'top',
             icon: 'error',
-            title: 'Oops...',
-            text: 'Something went wrong while submitting your message.',
+            title: 'Submission failed. Please try again!',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true
           });
         });
       });
