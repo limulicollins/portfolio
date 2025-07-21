@@ -25,7 +25,7 @@
 
 ## 📥 Resume
 
--The "Download Resume" button opens a PDF hosted within the project so visitors can read or download it directly.
+-The "Resume" button opens a PDF hosted within the project so visitors can read or download it directly.
 
 ## 🛠 Setup Instructions
 
