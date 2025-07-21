@@ -20,8 +20,8 @@
 
 ## 📬 Contact Form
 
-- The form submits user messages to my email using Formsubmit.
-- Users see a confirmation message on success, without leaving the page.
+- The form submits user messages to my email using netlify-forms.
+- Users see a confirmation message on success.
 
 ## 📥 Resume
 
