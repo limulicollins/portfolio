@@ -27,12 +27,7 @@
 
 -The "Resume" button opens a PDF hosted within the project so visitors can read or download it directly.
 
-## 🛠 Setup Instructions
-
-- Clone the repo:
- git clone https://github.com/yourusername/your-repo-name.git
-
-## 🙌 Acknowledgements
+# 🙌 Acknowledgements
 
 - Boxicons
 - Formsubmit
